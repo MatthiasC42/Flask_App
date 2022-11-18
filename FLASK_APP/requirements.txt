@@ -1,0 +1,65 @@
+# pip install -qr requirements.txt
+
+absl-py>=0.13.0
+cachetools>=4.2.2
+certifi>=2021.5.30
+charset-normalizer>=2.0.4
+click>=8.0.1
+cycler>=0.10.0
+Flask>=2.0.1
+google-auth>=1.34.0
+google-auth-oauthlib>=0.4.5
+grpcio>=1.39.0
+gunicorn>=20.1.0
+idna>=3.2
+itsdangerous>=2.0.1
+Jinja2>=3.0.1
+kiwisolver>=1.3.1
+Markdown>=3.3.4
+MarkupSafe>=2.0.1
+oauthlib>=3.1.1
+protobuf>=3.17.3
+pyasn1>=0.4.8
+pyasn1-modules>=0.2.8
+pyparsing>=2.4.7
+python-dateutil>=2.8.2
+pytz>=2021.1
+requests>=2.26.0
+requests-oauthlib>=1.3.0
+rsa>=4.7.2
+six>=1.16.0
+typing-extensions>=3.10.0.0
+urllib3>=1.26.6
+Werkzeug>=2.0.1
+# base ----------------------------------------
+Cython
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow
+PyYAML>=5.3.1
+scipy>=1.4.1
+tensorboard>=1.5
+torch>=1.7.0
+torchvision>=0.8.1
+tqdm>=4.41.0
+
+# logging -------------------------------------
+# wandb
+
+# plotting ------------------------------------
+seaborn>=0.11.0
+pandas
+
+# export --------------------------------------
+# coremltools>=4.1
+# onnx>=1.8.1
+# scikit-learn>=0.19.2  # for coreml quantization
+
+# extras --------------------------------------
+thop  # FLOPS computation
+pycocotools>=2.0  # COCO mAP
+Flask-Session
+rq 
+boto3
+s3fs

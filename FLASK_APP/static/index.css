@@ -1,0 +1,882 @@
+html {
+  background-image: linear-gradient(rgba(4,9,39,0.7),rgba(4,9,39,0.7)),url(wallpaper.jpg);
+  color: white;
+  position: absolute;
+  left: 18.25%;
+  -webkit-text-size-adjust: 100%
+}
+
+a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.App-header {
+  min-height: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 22px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input[type="file"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+.preview{
+  margin-bottom: 20px;
+  max-width: 1000px;
+  max-height: 360px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+  font-size: 14px;
+}
+
+.scroll-bg{
+  align-items: center;
+  margin-bottom: 20px;
+  background : gray;
+  width: 1500px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scroll-div{
+  display: inline-block;
+  width: 1500px;
+  height: 193px;
+  background: grey;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object{
+  padding-left: 10px;
+  color: black;
+  font-size: 12px;
+}
+
+.sbutton{
+  visibility: visible;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 24px;
+  padding: 5px 10px;
+  margin-left: -2px;
+  margin-bottom: 30px;
+}
+
+.rbutton{
+  visibility: hidden;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 24px;
+  padding: 5px 10px;
+  margin-left: -83px;
+  margin-bottom: 30px;
+}
+
+#link {
+  visibility: hidden;
+  display: block;
+  width: 115px;
+  height: 20px;
+  background-color: #e9e9e9;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-top: -71px;
+  margin-left: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 314px){
+
+  .html{
+    left: 0%;
+  }
+
+  .App-header {
+    font-size: calc(4px + 2vmin);
+  }
+
+  .preview{
+    height: 215;
+    max-height: 225px;
+    max-width: 225px;
+  }
+
+  input[type="file"] {
+    
+    font-size: 12px;
+  }
+
+  .scroll-bg{
+    max-width: 269px;
+  }
+  
+  .scroll-div{
+    max-width: 269px;
+  }
+  
+  .rbutton{
+    padding: 5px 33px;
+    margin-left: -83px;
+  }
+  
+  #link {
+    width: 265px;
+    margin-top: -15px;
+    margin-left: 0px;
+  }
+
+}
+
+@media only screen and (min-width: 315px) and (max-width: 352px){
+
+  html {
+    left: 3.5%;
+  }
+
+  .App-header {
+    font-size: calc(6px + 2vmin);
+  }
+
+  .preview{
+    max-height: 283px;
+    max-width: 283px;
+  }
+
+  input[type="file"] {
+    padding-left: 10px;
+    padding-right: 46px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .scroll-bg{
+    max-width: 283px;
+  }
+  
+  .scroll-div{
+    max-width: 283px;
+  }
+  
+  .rbutton{
+    padding: 5px 42px;
+    margin-left: -83px;
+  }
+  
+  #link {
+    width: 283px;
+    margin-top: -15px;
+    margin-left: 0px;
+  }
+
+
+}
+
+@media only screen and (min-width: 353px) and (max-width: 369px){
+
+  html {
+    left: 3.5%;
+  }
+
+  .App-header {
+    font-size: calc(6px + 2vmin);
+  }
+
+  .preview{
+    max-height: 320px;
+    max-width: 320px;
+  }
+
+  input[type="file"] {
+    padding-left: 10px;
+    padding-right: 83px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .scroll-bg{
+    max-width: 320px;
+  }
+  
+  .scroll-div{
+    max-width: 320px;
+  }
+  
+  .rbutton{
+    padding: 5px 60px;
+    margin-left: -83px;
+  }
+  
+  #link {
+    width: 320px;
+    margin-top: -15px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 383px){
+
+  html {
+    left: 3.5%;
+  }
+
+  .App-header {
+    font-size: calc(7px + 2vmin);
+  }
+
+  .preview{
+    max-height: 335px;
+    max-width: 335px;
+  }
+
+  input[type="file"] {
+    padding-left: 10px;
+    padding-right: 98px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  .scroll-bg{
+    max-width: 335px;
+  }
+  
+  .scroll-div{
+    max-width: 335px;
+  }
+  
+  .rbutton{
+    padding: 5px 67px;
+    margin-left: -83px;
+  }
+  
+  #link {
+    width: 334px;
+    margin-top: -15px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 384px) and (max-width: 406px){
+
+  html {
+    left: 3.5%;
+  }
+
+  .App-header {
+    font-size: calc(7px + 2vmin);
+  }
+
+  .preview{
+    max-height: 346px;
+    max-width: 346px;
+  }
+
+  input[type="file"] {
+    padding-right: 29.8px;
+    font-size: 15px;
+  }
+
+  .scroll-bg{
+    max-width: 346px;
+  }
+  
+  .scroll-div{
+    max-width: 346px;
+  }
+  
+  .rbutton{
+    padding: 5px 73.5px;
+    margin-left: -83px;
+  }
+  
+  #link {
+    width: 347px;
+    margin-top: -15px;
+    margin-left: 0px;
+  }
+}
+
+
+@media only screen and (min-width: 407px) and (max-width: 469px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  input[type="file"] {
+    padding-right: 25px;
+  }
+
+  .preview{
+    /*margin-top: 10px;*/
+    max-height: 360px;
+    max-width: 360px;
+  }
+
+  .scroll-bg{
+    max-width: 360px;
+  }
+  
+  .scroll-div{
+    max-width: 360px;
+  }
+  
+  #link {
+    margin-left: 245px;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 470px) and (max-width: 529px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  input[type="file"] {
+    padding-right: 25px;
+  }
+
+  .preview{
+    max-height: 415px;
+    max-width: 415px;
+  }
+
+  .scroll-bg{
+    max-width: 415px;
+  }
+  
+  .scroll-div{
+    max-width: 415px;
+  }
+  
+  #link {
+    margin-left: 245px;
+  }
+
+}
+
+@media only screen and (min-width: 530px) and (max-width: 557px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(8px+ 2vmin);
+  }
+
+  .preview{
+    max-height: 469px;
+    max-width: 469px;
+  }
+
+  .scroll-bg{
+    max-width: 469px;
+  }
+  
+  .scroll-div{
+    max-width: 469px;
+  }
+}
+
+@media only screen and (min-width: 558px) and (max-width: 589px){
+
+  html {
+    left: 7.5%;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .preview{
+    max-height: 469px;
+    max-width: 469px;
+  }
+
+  .scroll-bg{
+    max-width: 469px;
+  }
+  
+  .scroll-div{
+    max-width: 469px;
+  }
+}
+
+@media only screen and (min-width: 590px) and (max-width: 629px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .preview{
+    max-height: 526px;
+    max-width: 526px;
+  }
+
+  .scroll-bg{
+    max-width: 526px;
+  }
+  
+  .scroll-div{
+    max-width: 526px;
+  }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 647px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .preview{
+    max-height: 559px;
+    max-width: 559px;
+  }
+
+  .scroll-bg{
+    max-width: 559px;
+  }
+  
+  .scroll-div{
+    max-width: 559px;
+  }
+}
+
+@media only screen and (min-width: 648px) and (max-width: 701px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .preview{
+    max-height: 576px;
+    max-width: 576px;
+  }
+
+  .scroll-bg{
+    max-width: 576px;
+  }
+  
+  .scroll-div{
+    max-width: 576px;
+  }
+}
+
+@media only screen and (min-width: 702px) and (max-width: 729px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 500px;
+    max-width: 622px;
+  }
+
+  .scroll-bg{
+    max-width: 622px;
+  }
+  
+  .scroll-div{
+    max-width: 622px;
+  }
+}
+
+@media only screen and (min-width: 730px) and (max-width: 757px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 500px;
+    max-width: 648px;
+  }
+
+  .scroll-bg{
+    max-width: 648px;
+  }
+  
+  .scroll-div{
+    max-width: 648px;
+  }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 775px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 500px;
+    max-width: 675px;
+  }
+
+  .scroll-bg{
+    max-width: 675px;
+  }
+  
+  .scroll-div{
+    max-width: 675px;
+  }
+}
+
+@media only screen and (min-width: 776px) and (max-width: 789px){
+
+  html {
+    left: 6.1%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 500px;
+    max-width: 675px;
+  }
+
+  .scroll-bg{
+    max-width: 675px;
+  }
+  
+  .scroll-div{
+    max-width: 675px;
+  }
+}
+
+
+@media only screen and (min-width: 790px) and (max-width: 809px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 702px;
+  }
+
+  .scroll-bg{
+    max-width: 702px;
+  }
+  
+  .scroll-div{
+    max-width: 702px;
+  }
+}
+
+
+
+@media only screen and (min-width: 810px) and (max-width: 843px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 720px;
+  }
+
+  .scroll-bg{
+    max-width: 720px;
+  }
+  
+  .scroll-div{
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 844px) and (max-width: 885px){
+
+  html {
+    left: 6.9%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 720px;
+  }
+
+  .scroll-bg{
+    max-width: 720px;
+  }
+  
+  .scroll-div{
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 886px) and (max-width: 949px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 803px;
+  }
+
+  .scroll-bg{
+    max-width: 803px;
+  }
+  
+  .scroll-div{
+    max-width: 803px;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1013px){
+
+  html {
+    left: 8.07%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 803px;
+  }
+
+  .scroll-bg{
+    max-width: 803px;
+  }
+  
+  .scroll-div{
+    max-width: 803px;
+  }
+}
+
+@media only screen and (min-width: 1014px) and (max-width: 1122px){
+
+  html {
+    left: 5%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 905px;
+  }
+
+  .scroll-bg{
+    max-width: 905px;
+  }
+  
+  .scroll-div{
+    max-width: 905px;
+  }
+}
+
+@media only screen and (min-width: 1123px) and (max-width: 1164px){
+
+  html {
+    left: 9.45%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 905px;
+  }
+
+  .scroll-bg{
+    max-width: 905px;
+  }
+  
+  .scroll-div{
+    max-width: 905px;
+  }
+}
+
+@media only screen and (min-width: 1165px) and (max-width: 1264px){
+
+  html {
+    left: 11%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 905px;
+  }
+
+  .scroll-bg{
+    max-width: 905px;
+  }
+  
+  .scroll-div{
+    max-width: 905px;
+  }
+}
+
+@media only screen and (min-width: 1265px) and (max-width: 1347px){
+
+  html {
+    left: 14%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 905px;
+  }
+
+  .scroll-bg{
+    max-width: 905px;
+  }
+  
+  .scroll-div{
+    max-width: 905px;
+  }
+}
+
+@media only screen and (min-width: 1348px) and (max-width: 1388px){
+
+  html {
+    left: 16.4%;
+  }
+
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 905px;
+  }
+
+  .scroll-bg{
+    max-width: 905px;
+  }
+  
+  .scroll-div{
+    max-width: 905px;
+  }
+}
+
+@media only screen and (min-width: 1389px){
+
+  html {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .App-header {
+    font-size: calc(9.95px + 2vmin);
+  }
+
+  .preview{
+    max-height: 600px;
+    max-width: 905px;
+  }
+
+  .scroll-bg{
+    max-width: 905px;
+  }
+  
+  .scroll-div{
+    max-width: 905px;
+  }
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DBM Object Detection</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </head>
+   <div class="App">
+    <div class="App_1">
+      <header class="App-header">
+        <h1><u>DBM Object Detection</u></h1>
+      </header>
+        <div>
+          <span><img class="preview"  id="imagebox" src=""/></span>
+        </div>
+        <!-- <video width="320" height="240" controls>
+          <source src="/static/video_1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> -->
+    </div>
+    <div class="App_2">
+        <form class="input">
+          <input
+            id="imageinput"
+            name="image"
+            type="file" 
+            onchange="readUrl(this)"
+          />
+        </form>
+        <div class="scroll-bg">
+          <div class="scroll-div">
+            <div class="scroll-object" id="status"></div>
+          </div>
+        </div>
+        <button class="sbutton" name="send" id="sendbutton">Send</button> 
+        <button class="rbutton" name="refresh" id="refreshbutton">Detect New Image</button>
+        <div id="link">
+          <a href="" class="dbutton" id="download" download>Download</a>
+        </div>
+    </div>
+   </div>
+  </body>
+</html>
