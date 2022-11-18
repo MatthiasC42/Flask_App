@@ -1,0 +1,50 @@
+<annotation>
+	<folder>yellow trap 4</folder>
+	<filename>58dc6ff4-ee1e-4458-99a0-bf7a75826ee4.jpg</filename>
+	<path>C:\Users\jychu\Desktop\NParks APHC intern\DBM\yellow trap 4\58dc6ff4-ee1e-4458-99a0-bf7a75826ee4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>506</xmin>
+			<ymin>816</ymin>
+			<xmax>522</xmax>
+			<ymax>845</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>461</xmin>
+			<ymin>713</ymin>
+			<xmax>488</xmax>
+			<ymax>730</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>312</xmin>
+			<ymin>562</ymin>
+			<xmax>338</xmax>
+			<ymax>586</ymax>
+		</bndbox>
+	</object>
+</annotation>

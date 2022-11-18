@@ -1,0 +1,50 @@
+<annotation>
+	<folder>ronith's half of New Data</folder>
+	<filename>56be32c9-cfc8-4486-bb4b-21b19d6d8224.jpg</filename>
+	<path>C:\Users\Ronit\Downloads\ronith's half of New Data\56be32c9-cfc8-4486-bb4b-21b19d6d8224.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>422</xmin>
+			<ymin>420</ymin>
+			<xmax>451</xmax>
+			<ymax>444</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>246</xmin>
+			<ymin>428</ymin>
+			<xmax>272</xmax>
+			<ymax>456</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>482</ymin>
+			<xmax>74</xmax>
+			<ymax>514</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>both</folder>
+	<filename>IMG_4488.jpeg</filename>
+	<path>C:\Users\Ronit\Downloads\xavier's half of New Data - Copy\checked\both\IMG_4488.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2335</xmin>
+			<ymin>3608</ymin>
+			<xmax>2419</xmax>
+			<ymax>3743</ymax>
+		</bndbox>
+	</object>
+</annotation>

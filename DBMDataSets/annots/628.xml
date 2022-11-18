@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Original</folder>
+	<filename>IMG_4009.jpg</filename>
+	<path>C:\Users\Derrick Nguyen\Desktop\Trap images with DBM\Resized\Original\IMG_4009.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1348</xmin>
+			<ymin>3553</ymin>
+			<xmax>1455</xmax>
+			<ymax>3692</ymax>
+		</bndbox>
+	</object>
+</annotation>

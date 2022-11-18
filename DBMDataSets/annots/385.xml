@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Yellow trap 5 last 74</folder>
+	<filename>ba87befb-be71-4271-8e27-62e75e247adf.jpg</filename>
+	<path>C:\Users\User\Desktop\Yellow trap 5 last 74\ba87befb-be71-4271-8e27-62e75e247adf.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>441</xmin>
+			<ymin>396</ymin>
+			<xmax>488</xmax>
+			<ymax>456</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1235</xmin>
+			<ymin>946</ymin>
+			<xmax>1281</xmax>
+			<ymax>972</ymax>
+		</bndbox>
+	</object>
+</annotation>

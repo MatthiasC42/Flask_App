@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Yellow trap 6 first 143 + last 15</folder>
+	<filename>fbbc3090-8b12-41d2-9815-d4229ebef8ae.jpg</filename>
+	<path>C:\Users\User\Desktop\Yellow trap 6 first 143 + last 15\fbbc3090-8b12-41d2-9815-d4229ebef8ae.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>278</xmin>
+			<ymin>432</ymin>
+			<xmax>309</xmax>
+			<ymax>483</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1485</xmin>
+			<ymin>554</ymin>
+			<xmax>1531</xmax>
+			<ymax>581</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1450</xmin>
+			<ymin>718</ymin>
+			<xmax>1483</xmax>
+			<ymax>756</ymax>
+		</bndbox>
+	</object>
+</annotation>

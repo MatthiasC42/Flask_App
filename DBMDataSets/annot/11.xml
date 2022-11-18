@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Yellow trap 2 first 66</folder>
+	<filename>07536823-05bb-419d-9f78-70b02ca64cdd.jpg</filename>
+	<path>C:\Users\User\Desktop\Yellow trap 2 first 66\07536823-05bb-419d-9f78-70b02ca64cdd.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>721</xmin>
+			<ymin>518</ymin>
+			<xmax>755</xmax>
+			<ymax>559</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>977</xmin>
+			<ymin>106</ymin>
+			<xmax>1020</xmax>
+			<ymax>156</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>xavier's half of New Data</folder>
+	<filename>IMG_3993.jpeg</filename>
+	<path>C:\Users\Xavier\Desktop\xavier's half of New Data\xavier's half of New Data\IMG_3993.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>788</xmin>
+			<ymin>915</ymin>
+			<xmax>925</xmax>
+			<ymax>1004</ymax>
+		</bndbox>
+	</object>
+</annotation>

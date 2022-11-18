@@ -1,0 +1,26 @@
+<annotation>
+	<folder>yellow trap 5</folder>
+	<filename>5367d499-c417-4edf-8abe-1fa6feef9b99.jpg</filename>
+	<path>C:\Users\jychu\Desktop\NParks APHC intern\DBM\yellow trap 5\5367d499-c417-4edf-8abe-1fa6feef9b99.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>748</xmin>
+			<ymin>491</ymin>
+			<xmax>794</xmax>
+			<ymax>519</ymax>
+		</bndbox>
+	</object>
+</annotation>

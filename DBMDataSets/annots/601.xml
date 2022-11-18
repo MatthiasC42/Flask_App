@@ -1,0 +1,38 @@
+<annotation>
+	<folder>yellow trap 6</folder>
+	<filename>IMG_3901.jpeg</filename>
+	<path>C:\Users\jychu\Desktop\NParks APHC intern\DBM\yellow trap 6\IMG_3901.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>731</xmin>
+			<ymin>3196</ymin>
+			<xmax>836</xmax>
+			<ymax>3271</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>500</xmin>
+			<ymin>745</ymin>
+			<xmax>581</xmax>
+			<ymax>828</ymax>
+		</bndbox>
+	</object>
+</annotation>

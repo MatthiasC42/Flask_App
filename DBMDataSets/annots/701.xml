@@ -1,0 +1,26 @@
+<annotation>
+	<folder>yellow trap 2</folder>
+	<filename>PHOTO-2020-11-12-12-50-22.jpg</filename>
+	<path>C:\Users\jychu\Desktop\NParks APHC intern\DBM\yellow trap 2\PHOTO-2020-11-12-12-50-22.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1278</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>263</xmin>
+			<ymin>812</ymin>
+			<xmax>298</xmax>
+			<ymax>864</ymax>
+		</bndbox>
+	</object>
+</annotation>

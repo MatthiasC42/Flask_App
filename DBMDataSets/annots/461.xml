@@ -1,0 +1,38 @@
+<annotation>
+	<folder>DBM</folder>
+	<filename>df9845bc-0f03-45a3-ae36-600b04e566f0.jpg</filename>
+	<path>C:\Users\jychu\Desktop\NParks APHC intern\DBM\df9845bc-0f03-45a3-ae36-600b04e566f0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>901</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>465</xmin>
+			<ymin>48</ymin>
+			<xmax>533</xmax>
+			<ymax>78</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1268</xmin>
+			<ymin>150</ymin>
+			<xmax>1305</xmax>
+			<ymax>193</ymax>
+		</bndbox>
+	</object>
+</annotation>
