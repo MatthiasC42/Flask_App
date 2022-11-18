@@ -1,0 +1,50 @@
+<annotation>
+	<folder>New Data</folder>
+	<filename>2ea11d65-dafe-4adc-862e-9182de7982e7.jpg</filename>
+	<path>C:\Users\Ronit\Downloads\New Data\New Data\2ea11d65-dafe-4adc-862e-9182de7982e7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>69</xmin>
+			<ymin>157</ymin>
+			<xmax>86</xmax>
+			<ymax>188</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>493</xmin>
+			<ymin>109</ymin>
+			<xmax>519</xmax>
+			<ymax>127</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>DBM</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>493</xmin>
+			<ymin>120</ymin>
+			<xmax>513</xmax>
+			<ymax>145</ymax>
+		</bndbox>
+	</object>
+</annotation>
